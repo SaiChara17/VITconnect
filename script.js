@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clearTimeout(typingTimeout);
         typingTimeout = setTimeout(() => {
             typingIndicator.style.display = 'none';
-        }, 3000); // Hide after 3 seconds
+        }, 1000); // Hide after 3 seconds
     }
 
 
